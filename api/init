@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./yii migrate --interactive=0 && echo "Populating Department table from Wallmart Free Api" && curl localhost:80/populate-departments && echo "\nPopulating Product table from Wallmart Free Api" && curl http://localhost:80/populate-products && echo "\nPopulating Images table from Wallmart Free Api" && curl http://localhost:80/populate-images

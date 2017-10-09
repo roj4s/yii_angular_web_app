@@ -1,0 +1,28 @@
+<h1>Products of Department {{ department_name }}</h1>
+<div fxLayout="row" fxLayoutWrap>
+    <div *ngFor="let d of data">
+    <mat-card  class="example-card">
+        <mat-card-header>
+            <img mat-card-avatar src="{{ d.url }}" alt="d.product_name">
+            <mat-card-title>{{d.product_name}}</mat-card-title>
+            <mat-card-subtitle>{{d.price | currency}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="{{ d.url }}" alt="d.product_name">
+        <mat-card-content>
+            <p>
+                {{ d.short_description }}
+            </p>
+        </mat-card-content>
+        <mat-card-actions >
+            <button
+                    mat-button
+                    class="fa fa-trash-o red-button"
+                    (click)="delete_product(d.product_id)"
+
+            >
+
+            </button>
+        </mat-card-actions >
+    </mat-card>
+    </div>
+</div>

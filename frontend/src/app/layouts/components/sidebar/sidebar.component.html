@@ -1,0 +1,11 @@
+<nav class="sidebar" [ngClass]="{sidebarPushRight: isActive}">
+    <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '14px' }"></ngx-loading>
+    <ul class="list-group">
+        <a class="list-group-item">
+            Departments
+        </a>
+        <a routerLink="/products/{{ d.id }}" *ngFor="let d of departments" class="list-group-item" >
+            {{ d.name }}
+        </a>
+    </ul>
+</nav>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,sBAAsB,CAAC;AACrD,OAAO,EAAE,eAAe,EAAE,MAAM,sBAAsB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { LoadingModule } from './ngx-loading.module';\r\nexport { ANIMATION_TYPES } from './ngx-loading.config';"]}

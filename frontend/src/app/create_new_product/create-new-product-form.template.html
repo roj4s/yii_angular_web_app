@@ -1,0 +1,19 @@
+<div class="container">
+<div class="create-product-form">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name" class="col-form-label">Name</label>
+                <input [(ngModel)]="product.name"  class="form-control" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="description" class="col-form-label">Description</label>
+                <input [(ngModel)]="product.description"  class="form-control" id="description" placeholder="Name">
+            </div>
+        </div>
+        <button (click)="send()" class="btn btn-primary">Send</button>
+
+</div>
+</div>
