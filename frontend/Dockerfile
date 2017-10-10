@@ -9,7 +9,7 @@ USER root
 
 RUN yarn global add @angular/cli npm
 
-#RUN npm install -g angular-cli
+RUN yarn install
 
 EXPOSE 4200
 EXPOSE 49153
