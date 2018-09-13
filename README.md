@@ -1,6 +1,4 @@
-# FPF Test for System Analyst vacancy (Yii2 REST API + Angular 2 + Docker)
-
-Implementation to participate as candidate of System Analyst vacancy in FPF Manaus.
+# Simple Microservice Architecture based Web App (Yii2 REST API + Angular 2 + Docker)
 
 Technologies employed:
   * Yii2 for providing RESTful API and for DB migrations
