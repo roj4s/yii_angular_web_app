@@ -20,6 +20,3 @@ and populates tables with data from the Wallmart Free Api.
   * Once inside the backend container execute the init script with  ./init
   
 If all the previous steps for set up went well youll be able to access the front-end app through localhost:4200 and the rest api through localhost:4201.
-Please reach me through call or whatspp (92 982114961) if you find too much trouble to execute this project.
-
-Thanks in advance. 
